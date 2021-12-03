@@ -82,7 +82,7 @@ a{
 
     .testocall{
         font-size: 46pt;
-        margin-top: 80px;
+        margin-top: 100px;
     
     }
 }
@@ -90,11 +90,11 @@ a{
 @media screen and (min-width:800px){
 
     .testocall{
-        font-size: 32pt;
+        font-size: 28pt;
         margin-top: 120px;
         font-size: 32pt;
-        margin-right: 7vw;
-        margin-left: 7vw;
+        margin-right: 10vw;
+        margin-left: 10vw;
         margin-top: 5vw;
     
     }
