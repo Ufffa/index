@@ -3,7 +3,7 @@
     --textsize2:4rem;  /*grandezza titoli*/
     --margine:0%;    /*margine testo della call*/
     --t1:50s;
-    --t2:30s;
+    --t2:25s;
 }
 
 *{
@@ -62,10 +62,10 @@
 
 
 .testocall{
-    font-size: 30pt;
+    font-size: 37pt;
     font-family: FR;
-    margin-right: 7vw;
-    margin-left: 7vw;
+    margin-right: 13vw;
+    margin-left: 13vw;
     margin-top: 5vw;
     
 }
@@ -96,10 +96,7 @@ a{
 
     .testocall{
         font-size: 30pt;
-        margin-top: 120px;
-        margin-right: 10vw;
-        margin-left: 10vw;
-        margin-top: 5vw;
+       
     }
   
 }
