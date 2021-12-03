@@ -1,13 +1,15 @@
 :root{
-    --textsize1:2.3rem; /*grandezza testi*/
+    --textsize1:3rem; /*grandezza testi*/
     --textsize2:4rem;  /*grandezza titoli*/
-    --margine:10vw;    /*margine testo della call*/
+    --margine:4%;    /*margine testo della call*/
 }
 
 *{
     padding: 0px;
     margin: 0px;
     border: 0px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 /*font regular*/
@@ -21,20 +23,48 @@
     src: url(font/Arizona-Medium.otf);
 }
 
+@keyframes intestazione{
 
-.intestazione{
-    font-size: var(--textsize2);
-
-    padding: 15px;
+0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+100% {
+    -webkit-transform: translateX(-4165px);
+    transform: translateX(-4165px);
+}
 }
 
-.testocall{
-    font-family: FR;
-    font-size: var(--textsize1);
+.corpo{
 
-    margin-left: var(--margine);
-    margin-right: var(--margine);
-    margin-top: 5vw;
+    overflow-x: hidden ;
+    
+
+}
+
+.intestazione{
+        -webkit-animation: intestazione 60s linear infinite;
+        animation: intestazione 60s linear infinite;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        width: 100%;
+        min-width: 8330px;
+        background-position-y: center;
+        background-size: contain;
+        
+
+        margin-top: 10px;
+}
+
+
+
+
+.testocall{
+    font-size: var(--textsize1);
+    font-family: FR;
+    margin-right: 6vw;
+    margin-left: 6vw;
+    margin-top: 2vw;
     
 }
 
