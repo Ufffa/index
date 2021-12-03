@@ -43,8 +43,8 @@
 }
 
 .intestazione{
-        -webkit-animation: intestazione 60s linear infinite;
-        animation: intestazione 60s linear infinite;
+        -webkit-animation: intestazione 50s linear infinite;
+        animation: intestazione 50s linear infinite;
         -webkit-transform: translateX(0);
         transform: translateX(0);
         width: 100%;
