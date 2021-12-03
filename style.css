@@ -2,6 +2,8 @@
     --textsize1:2rem; /*grandezza testi*/
     --textsize2:4rem;  /*grandezza titoli*/
     --margine:0%;    /*margine testo della call*/
+    --t1:50s;
+    --t2:30s;
 }
 
 *{
@@ -43,8 +45,8 @@
 }
 
 .intestazione{
-        -webkit-animation: intestazione 50s linear infinite;
-        animation: intestazione 50s linear infinite;
+        -webkit-animation: intestazione var(--t1) linear infinite;
+        animation: intestazione var(--t1) linear infinite;
         -webkit-transform: translateX(0);
         transform: translateX(0);
         width: 100%;
@@ -85,20 +87,19 @@ a{
         margin-top: 100px;
     }
     .intestazione{
-        -webkit-animation: intestazione 35s linear infinite;
-        animation: intestazione 35s linear infinite;
+        -webkit-animation: intestazione var(--t2) linear infinite;
+        animation: intestazione var(--t2) linear infinite;
     }
 }
 
 @media screen and (min-width:800px){
 
     .testocall{
-        font-size: 28pt;
+        font-size: 30pt;
         margin-top: 120px;
-        font-size: 32pt;
         margin-right: 10vw;
         margin-left: 10vw;
         margin-top: 5vw;
-    
     }
+  
 }
