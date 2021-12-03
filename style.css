@@ -1,5 +1,5 @@
 :root{
-    --textsize1:2rem; /*grandezza testi*/
+    --textsize1:4rem; /*grandezza testi*/
     --textsize2:4rem;  /*grandezza titoli*/
     --margine:4%;    /*margine testo della call*/
 }
@@ -64,7 +64,7 @@
     font-family: FR;
     margin-right: 10vw;
     margin-left: 10vw;
-    margin-top: 4vw;
+    margin-top: 7vw;
     
 }
 
