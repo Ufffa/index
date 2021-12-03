@@ -83,7 +83,10 @@ a{
     .testocall{
         font-size: 46pt;
         margin-top: 100px;
-    
+    }
+    .intestazione{
+        -webkit-animation: intestazione 35s linear infinite;
+        animation: intestazione 35s linear infinite;
     }
 }
 
