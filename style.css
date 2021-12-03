@@ -1,7 +1,7 @@
 :root{
-    --textsize1:4rem; /*grandezza testi*/
+    --textsize1:2rem; /*grandezza testi*/
     --textsize2:4rem;  /*grandezza titoli*/
-    --margine:4%;    /*margine testo della call*/
+    --margine:0%;    /*margine testo della call*/
 }
 
 *{
@@ -60,11 +60,11 @@
 
 
 .testocall{
-    font-size: var(--textsize1);
+    font-size: 30pt;
     font-family: FR;
-    margin-right: 10vw;
-    margin-left: 10vw;
-    margin-top: 7vwpx;
+    margin-right: 7vw;
+    margin-left: 7vw;
+    margin-top: 5vw;
     
 }
 
@@ -76,4 +76,13 @@ p.sottotitolo{
 a{
     color: rgb(128, 123, 123);
     text-decoration: none;
+}
+
+@media screen and (max-width:800px){
+
+    .testocall{
+        font-size: 46pt;
+        margin-top: 80px;
+    
+    }
 }
