@@ -1,0 +1,49 @@
+:root{
+    --textsize1:2.3rem; /*grandezza testi*/
+    --textsize2:4rem;  /*grandezza titoli*/
+    --margine:10vw;    /*margine testo della call*/
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+/*font regular*/
+@font-face {
+    font-family: FR ;
+    src: url(font/Arizona-Light.otf);
+}
+/*font bold*/
+@font-face {
+    font-family: FB ;
+    src: url(font/Arizona-Medium.otf);
+}
+
+
+.intestazione{
+    font-size: var(--textsize2);
+
+    padding: 15px;
+}
+
+.testocall{
+    font-family: FR;
+    font-size: var(--textsize1);
+
+    margin-left: var(--margine);
+    margin-right: var(--margine);
+    margin-top: 5vw;
+    
+}
+
+p.sottotitolo{
+    font-family: FB;
+    font-size: var(--textsize1);
+}
+
+a{
+    color: rgb(128, 123, 123);
+    text-decoration: none;
+}
