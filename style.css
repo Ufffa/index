@@ -1,5 +1,5 @@
 :root{
-    --textsize1:3rem; /*grandezza testi*/
+    --textsize1:2rem; /*grandezza testi*/
     --textsize2:4rem;  /*grandezza titoli*/
     --margine:4%;    /*margine testo della call*/
 }
@@ -62,8 +62,8 @@
 .testocall{
     font-size: var(--textsize1);
     font-family: FR;
-    margin-right: 6vw;
-    margin-left: 6vw;
+    margin-right: 10vw;
+    margin-left: 10vw;
     margin-top: 2vw;
     
 }
