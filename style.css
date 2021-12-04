@@ -89,6 +89,8 @@ a{
     .intestazione{
         -webkit-animation: intestazione var(--t2) linear infinite;
         animation: intestazione var(--t2) linear infinite;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
     }
 }
 
