@@ -80,7 +80,7 @@ a{
     text-decoration: none;
 }
 
-@media screen and (min-width:800px) and (max-width:1080px){
+@media screen and (min-width:300px) and (max-width:1080px){
 
     .testocall{
         font-size: 46pt;
